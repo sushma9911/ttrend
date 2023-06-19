@@ -1,5 +1,6 @@
 def registry = 'https://devopslearn9.jfrog.io'
 def imageName = 'devopslearn9.jfrog.io/sushma-docker-docker-local/ttrend'
+def version   = '2.1.2'
 pipeline {
     agent {
         node {
