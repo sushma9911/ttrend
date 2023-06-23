@@ -4,7 +4,7 @@ def version   = '2.1.2'
 pipeline {
     agent {
         node {
-            label 'mavenagent'
+            label 'mavenslave'
         }
     }
 
